@@ -2,7 +2,7 @@
 
 In this project, you will be provided with a real-world dataset, extracted from Kaggle, on San Francisco crime incidents, and you will provide statistical analyses of the data using Apache Spark Structured Streaming.
 
-# Step 1: 
+# Step 1
 
 The first step is to build a simple Kafka server.  
 Complete the code for the server in producer_server.py and kafka_server.py.  
@@ -40,7 +40,16 @@ Take a screenshot of your progress reporter after executing a Spark job. You wil
 
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*]  --conf spark.ui.port=3000 data_stream.py
 
-### How to kill PID  
+# Step 3
+
+How did changing values on the SparkSession property parameters affect the throughput and latency of the data?  
+
+What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?  
+
+
+# Appendix
+
+## How to kill PID  
 You might need to kill a process on a port. Install net-tools    
 
 apt-get install net-tools  

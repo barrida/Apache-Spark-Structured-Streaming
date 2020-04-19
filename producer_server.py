@@ -14,6 +14,7 @@ class ProducerServer(KafkaProducer):
     def generate_data(self):
         with open(self.input_file) as f:
             lines = json.load(f)
+
             for line in lines:
                 message = self.dict_to_binary(line)
                 # TODO send the correct data

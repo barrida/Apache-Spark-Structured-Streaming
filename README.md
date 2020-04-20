@@ -55,6 +55,9 @@ python kafka_server.py
 ```
 /usr/bin/kafka-topics --list --zookeeper localhost:2181  
 ```
+
+![Output](Step 1 - kafka-consumer-console-output.PNG)
+
 # Step 2  
 
 Apache Spark already has an integration with Kafka brokers, so we would not normally need a separate Kafka consumer. However, we are going to ask you to create one anyway. Why? We'd like you to create the consumer to demonstrate your understanding of creating a complete Kafka Module (producer and consumer) from scratch. In production, you might have to create a dummy producer or consumer to just test out your theory and this will be great practice for that.  

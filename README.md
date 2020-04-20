@@ -56,7 +56,7 @@ python kafka_server.py
 /usr/bin/kafka-topics --list --zookeeper localhost:2181  
 ```
 
-![Output](Step 1 - kafka-consumer-console-output.PNG)
+![Output](../screenshots/Step 1 - kafka-consumer-console-output.PNG)
 
 # Step 2  
 

@@ -1,6 +1,7 @@
 # SF Crime Data Project   
 
-In this project, you will be provided with a real-world dataset, extracted from Kaggle, on San Francisco crime incidents, and you will provide statistical analyses of the data using Apache Spark Structured Streaming.
+In this project, you will analyze a real-world dataset of the SF Crime Rate, extracted from kaggle, to provide
+statistical analysis using Apache Spark Structured Streaming.
 
 # Development Environment
 You may choose to create your project in the workspace we provide here, or if you wish to develop your project locally, you will need to set up your environment properly as described below:  

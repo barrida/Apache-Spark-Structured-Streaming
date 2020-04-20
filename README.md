@@ -56,7 +56,7 @@ python kafka_server.py
 /usr/bin/kafka-topics --list --zookeeper localhost:2181  
 ```
 
-![Output](screenshots/Step 1 - kafka-consumer-console-output.PNG)
+![Kafka Consumer Console Output](https://github.com/barrida/Apache-Spark-Structured-Streaming/blob/master/screenshots/Step%201%20-%20kafka-consumer-console-output.PNG)
 
 # Step 2  
 
@@ -64,11 +64,20 @@ Apache Spark already has an integration with Kafka brokers, so we would not norm
   
 Implement all the TODO items in data_stream.py. You may need to explore the dataset beforehand using a Jupyter Notebook.  
 
-Take a screenshot of your progress reporter after executing a Spark job. You will need to include this screenshot as part of your project submission.  
-
+**Run spark-submit**  
 ```
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*]  --conf spark.ui.port=3000 data_stream.py
 ```
+
+**Progress reporter after executing a Spark job**  
+
+![Progress Reporter](https://github.com/barrida/Apache-Spark-Structured-Streaming/blob/master/screenshots/Step%202%20-%20progress-reporter(2).PNG)
+
+**Spark Streaming UI as the streaming continues**  
+
+![Spark Streaming UI](https://github.com/barrida/Apache-Spark-Structured-Streaming/blob/master/screenshots/Step%202%20-%20Spark%20Streaming%20UI.PNG)
+
+
 # Step 3
 
 - How did changing values on the SparkSession property parameters affect the throughput and latency of the data?  
